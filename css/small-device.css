@@ -1,0 +1,149 @@
+﻿body {
+    background-color:#fff;
+    font-family: Arial;
+}
+
+.section { 
+    width: 100%;
+    margin:0;
+    overflow:hidden;
+    position:relative;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 95%;
+    max-width:800px;
+    position:relative;
+}
+
+.brand-logo {
+    max-height: 30px;
+}
+
+.nav-title {
+    line-height: 50px;
+    font-size: 28px;
+}
+
+.hero-img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.box {
+    border-radius: 5px;
+    border-color: #808080;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 15px;
+}
+
+.stats {
+    font-size: 12px;
+}
+
+.page-header {
+    margin: 15px 0px;
+    border: 0;
+    padding: 0;
+}
+
+#prep-time {
+    color: blue;
+}
+
+#active-time {
+    color: red;
+}
+
+#total-time {
+    color: green;
+}
+
+#serving-cost {
+    color: green;
+}
+
+div.ingredients div.content div.form-group {
+    margin-bottom: 7px;
+}
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 10px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+
+div.steps div.content ol {
+    padding-left: 20px;
+}
+
+div.steps div.content ol li {
+    min-height: 125px;
+    padding-top: 25px;
+
+}
+
+div.steps div.content ol li img {
+    max-height: 100px;
+}
+
+.spacer {
+    min-height: 50px;
+}
+
+.navbar .container-fluid .nav {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.nav-pills a {
+    color: #560000;
+}
+
+.nav-pills a:hover {
+    color: #560000;
+    border-radius: 0px;
+}
+
+.nav-pills .active a:hover {
+    color: #560000;
+    border-radius: 0px;
+}
+.nav>li>a:hover, 
+.nav>li>a:focus {
+    color: #560000;
+    border-radius: 0px;
+}
+
+@media (max-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified > li > a  {
+    border-bottom: 1px solid #ddd !important;
+    border-radius: 4px 4px 0 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
